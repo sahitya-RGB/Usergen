@@ -11,6 +11,7 @@ import AvailabilityChecker from './components/AvailabilityChecker';
 import TrendingLeaderboard from './components/TrendingLeaderboard';
 import FAQSection from './components/FAQSection';
 import Footer from './components/Footer';
+import IdentityBuilder from './components/IdentityBuilder';
 
 export default function App() {
   // Favorite collections state (loaded from local storage)
@@ -166,6 +167,8 @@ export default function App() {
           onIncrementGenerated={handleIncrementGenerated}
           scrollToAnchorRef={generatorRef}
         />
+
+        <IdentityBuilder />
 
         <AvailabilityChecker />
 
