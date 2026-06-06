@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import {
   Sparkles, Star, Copy, Trash2, X, Download, Archive, Activity, ClipboardList, Info, AlertCircle
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import { FavoriteCollection, ActivityHistoryItem, Username } from './types';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
@@ -402,6 +403,7 @@ export default function App() {
           </div>
         </div>
       )}
+      <Analytics />
     </div>
   );
 }
