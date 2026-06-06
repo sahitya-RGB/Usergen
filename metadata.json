@@ -1,0 +1,6 @@
+{
+  "name": "UserGen",
+  "description": "Premium username generation platform for Discord, Instagram, Telegram, Gaming, Branding, and OG hunters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
